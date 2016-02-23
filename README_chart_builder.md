@@ -1,6 +1,6 @@
 ### The Chart builder
 
-This example of the Chart builder has been implemented as part of the [Worldbank Data Interface](http://larsvers.github.io/worldbank-data-interface/), which attempts to give a good overview of where the world has been heading in the past 50 years. 
+The *Chart builder* has been implemented as part of the [Worldbank Data Interface](http://larsvers.github.io/worldbank-data-interface/), which attempts to give a good overview of where the world has been heading in the past 50 years. 
 
 --
 
