@@ -75,14 +75,14 @@ I consider it good practice to allow the user a summary of the data as an altern
 
 Still, a summary has clear benefits. In this context it is meant to satisfay 3 purposes: First, it simplifies our view to more easily spot trends and outliers per country. Second, people without much time can get a quick overview. Third, a summary value across a number of metrics can become currency within an organisation and help more succinct communication.
 
-In this case we are averaging a number of key metrics per country. There are in fact 2 metrics: a **Wide** Growth Index and a **Tight** Growth Index. The Wide Index averages 9 key metrics (below) while the Tight Growth Index averages 3 key metrics. Both metrics focus on growth in social and health categories rather than economy which is down to economic data not being available for many countries. The views are implemented as multiples showing one graph per country. To help cognition, the countries are further ranked descendingly by positive growth rate within the past 10 years.
+In this case we are averaging a number of key metrics per country. There are in fact 2 metrics: a **Wide** Growth Index and a **Tight** Growth Index <sup>*</sup>. The Wide Index averages 9 key metrics (below) while the Tight Growth Index averages 3 key metrics. Both metrics focus on growth in social and health categories rather than economy which is down to economic data not being available for many countries. The views are implemented as multiples showing one graph per country. To help cognition, the countries are further ranked descendingly by positive growth rate within the past 10 years.
 
 
-##### Footnote
+<sup>*</sup> <sub>Metrics for indexes:
 
 Wide Growth Index represents the average yearly growth rate of the following 9 variables: GDP per capita (constant 2005 US$), Mortality rate, infant (per 1,000 live births), Mortality rate, under-5 (per 1,000 live births), Number of infant deaths, Number of under-five deaths, Mortality rate adult (per 1,000 female adults), Life expectancy at birth, total (years), Death rate, crude (per 1,000 people), Survival to age 65, female (% of cohort)
 
-Tight Growth Index represents the average yearly growth rate of the following 3 variables: Life expectancy at birth, total (years), Death rate, crude (per 1,000 people), Survival to age 65, female (% of cohort)
+Tight Growth Index represents the average yearly growth rate of the following 3 variables: Life expectancy at birth, total (years), Death rate, crude (per 1,000 people), Survival to age 65, female (% of cohort)</sub>
 
 
 ###### The chart builder
