@@ -80,9 +80,9 @@ In this case we are averaging a number of key metrics per country. There are in 
 
 <sub><a name="footnote">Metrics for indexes</a>:</sub>
 
-<sub>Wide Growth Index represents the average yearly growth rate of the following 9 variables: GDP per capita (constant 2005 US$), Mortality rate, infant (per 1,000 live births), Mortality rate, under-5 (per 1,000 live births), Number of infant deaths, Number of under-five deaths, Mortality rate adult (per 1,000 female adults), Life expectancy at birth, total (years), Death rate, crude (per 1,000 people), Survival to age 65, female (% of cohort).</sub>
+<sub>The *Wide Growth Index* represents the average yearly growth rate of the following 9 variables: GDP per capita (constant 2005 US$), Mortality rate, infant (per 1,000 live births), Mortality rate, under-5 (per 1,000 live births), Number of infant deaths, Number of under-five deaths, Mortality rate adult (per 1,000 female adults), Life expectancy at birth, total (years), Death rate, crude (per 1,000 people), Survival to age 65, female (% of cohort).</sub>
 
-<sub>Tight Growth Index represents the average yearly growth rate of the following 3 variables: Life expectancy at birth, total (years), Death rate, crude (per 1,000 people), Survival to age 65, female (% of cohort)</sub>
+<sub>The *Tight Growth Index* represents the average yearly growth rate of the following 3 variables: Life expectancy at birth, total (years), Death rate, crude (per 1,000 people), Survival to age 65, female (% of cohort)</sub>
 
 
 ###### The chart builder
