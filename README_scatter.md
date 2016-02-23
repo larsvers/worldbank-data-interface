@@ -8,7 +8,7 @@ First, scatterplots still welcome help from more traditional means of data visua
 
 Second, the bar charts and the scatterplot implement linked highlighting. Hovering over a data point or a bar chart label will grey out all points and bars apart from the selected one. Clicking will lock this data point in. This is also my excuse to still give each scatter point a different colour. If colour was the only means to distinguish between the points the visual would be unreadable. Yet the combination of colour, highlighting as well as labelling allows for good navigation and cognition.
 
-![worldbank_highlighted](images/worldbank_scatter_highlighted)
+![worldbank_highlighted](images/worldbank_scatter_highlighted.png)
 
 Third, all scatterplots can be time-animated showing the development of the association from - in our case - 1961 to 2013. This way animation adds an additional time variable to the set-up, explaining the history of the potential relation in under a minute. 
 
