@@ -1,6 +1,6 @@
 ### The worldbank scatterplots
 
-The [Worldbank Data Interface](http://larsvers.github.io/worldbank-data-interface/), which attempts to give a good overview of where the world has been heading in the past 50 years. One part of the interface is the *Explore* section allowing users to find associations between 2 or 3 variables against the backdrop of time. 3 features to shine some light on: 
+The [Worldbank Data Interface](http://larsvers.github.io/worldbank-data-interface/) attempts to give a good overview of where the world has been heading in the past 50 years. One part of the interface is the *Explore* section allowing users to find associations between 2 or 3 variables against the backdrop of time. 3 features to shine some light on: 
 
 First, scatterplots still welcome help from more traditional means of data visualization. Especially, in business settings there will be users not acquainted with or inclined to learn how to read scatterplots. A simple addition of bar-charts representing each individual variable goes a long way here. 
 
@@ -16,4 +16,4 @@ Third, all scatterplots can be time-animated showing the development of the asso
 
 --
 
-For the full worldbank data interface go [here](http://larsvers.github.io/worldbank-data-interface/)
+For the full worldbank data interface come over [here](http://larsvers.github.io/worldbank-data-interface/)
