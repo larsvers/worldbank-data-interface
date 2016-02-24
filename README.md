@@ -11,7 +11,7 @@
 ---
 
 
-####  The data
+#### The data
 
 The worldbank data interface used to be a dashboard I built for a broadcasting company some time ago. One of the key objectives was to compare metrics of a large number of brands from two product lines (on-demand vs. traditional television) with each other. All metrics required to be shown as a time-series. When I decided to publish the dashboard I needed to find open data to replace the proprietary data. It wasn't a long search as I wanted to work with [Worldbank data](http://databank.worldbank.org/data/reports.aspx?source=world-development-indicators) for some time as it's such a relevant and deep data-source showing trends over a comparably long time-period. Starting to wrangle the data it became apparent quite quickly that the worldbank data shared key properties with my original dataset:
 
@@ -87,4 +87,4 @@ In this case we are averaging a number of key metrics per country. There are in 
 
 ###### The chart builder
 
-The final module in this interface is the **chart-builder**. The builder allows you to focus on a particular chart showing all countries for the metric. The user has a list of all metrics allowing him to bring up the visual they want. They can then alternate between line chart and the data in a table or heatmap. Some metrics can be split in male, female ![like so](images/worldbank_split.png).
+The final module in this interface is the **chart-builder**. The builder allows you to focus on a particular chart showing all countries for the metric. The user has a list of all metrics allowing him to bring up the visual they want. They can then alternate between line chart and the data in a table or heatmap. Some metrics can be split in male, female ![like so](images/readme/worldbank_split.png).
