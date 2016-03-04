@@ -22,7 +22,7 @@ The worldbank data interface used to be a dashboard I built for a broadcasting c
 
 and most importantly:
 
-* The categories (= countries) themselves can be clustered into a super-category to allow comparison.
+* The categories (= countries) can be clustered into a super-category to allow high level comparison.
 
 In the case of the original interface this super-category was the *broadcasting type* (on-demnad vs. traditional television). For the worldbank data I could use the [*Human Development Index*](https://en.wikipedia.org/wiki/Human_Development_Index). The Human Development Index (or HDI) is colloquially well-known as we tend to refer to *highly developed* countries or countries with a *low development*. In fact the HDI establishes a grouping with 4 ordinal categories of development:
 
@@ -55,14 +55,23 @@ So. to the core:
 
 ###### Displaying many trends
 
+ ![main display](/images/readme/worldbank.png)
+
 The core visual is - in its essence - a multiple with relatively large graphs (for multiples, that is) being navigated by scrolling. The data for each graph shows one metric and each line represents one country. The graphs are laid out horizontally in two columns. Each column represents one super-category, for example *very highly developed countries* to the left and *low developed countries* to the right. This side-by-side layout allows the user to identify general patterns over time per super-category. Highlighting of individual countries is possible by hovering over the lines as well as picking each country by a button box above the columns. I applied **linked highlighting**, across the entire column, so highlighting a country in one chart highlights the country across all charts it is present in.
 
-This ticks boxes 1, 3, 4 and 5. Box 2 (= show hierarchies) is only partly ticked as of course the lines show different levels. However, in order to show hierarchies proper, the user can switch from a line chart to a **bar chart**. By poping up a slider at the bottom of the screen, the users can choose the year they would like to see. Box 3 ticked. As a bonus and in the spirit of redundancy and [detail on demand](http://www.infovis-wiki.net/index.php/Visual_Information-Seeking_Mantra), the user can also view the raw data in a table. We can turn the table into a heatmap to help identifying individual figures as well as downloading it in order to go wild with the semi-raw data.
+This ticks boxes 1, 3, 4 and 5. Box 2 (= show hierarchies) is only partly ticked as of course the lines show different levels. However, in order to show hierarchies proper, the user can switch from a line chart to a **bar chart**. By poping up a slider at the bottom of the screen, the users can choose the year they would like to see. Box 3 ticked. 
 
+![moving bars](images/readme/worldbank_bars.gif)
+
+As a bonus and in the spirit of redundancy and [detail on demand](http://www.infovis-wiki.net/index.php/Visual_Information-Seeking_Mantra), the user can also view the raw data in a table. We can turn the table into a heatmap to help identifying individual figures as well as downloading it in order to go wild with the semi-raw data.
+
+![heatmap](images/readme/worldbank_heatmap.png)
 
 Next box, number 6:
 
 ###### Displaying associations
+
+![scatter](/images/readme/worldbank_scatter.png)
 
 The worldbank data interface is descriptive in nature. This means our main aim is to show the data as it is without applying further analysis or modeling to it. However, looking at associations of 2 or 3 variables can inform understanding a lot if only it changes a perspective. Assocoations are incorporated within the **Explore** section in the interface showing scatterplots of 2 and bubble charts of 3 variables.
 
@@ -70,6 +79,10 @@ Additionally all scatterplots can be **time-animated** showing the development o
 
 
 ###### The summary
+
+![summary](/images/readme/worldbank_summary.png)
+
+![like so](images/readme/worldbank_split.png)
 
 I consider it good practice to allow the user a summary of the data as an alternative to the deep end. One could argue an overview, reducing complexity is in this case not really needed as the data in its raw form (as in trends per country) isn't complex or shouting for simplification. In fact it's so straight forward any summary adds complexity.
 
@@ -87,4 +100,8 @@ In this case we are averaging a number of key metrics per country. There are in 
 
 ###### The chart builder
 
-The final module in this interface is the **chart-builder**. The builder allows you to focus on a particular chart showing all countries for the metric. The user has a list of all metrics allowing him to bring up the visual they want. They can then alternate between line chart and the data in a table or heatmap. Some metrics can be split in male, female ![like so](images/readme/worldbank_split.png).
+![chart builder](images/readme/worldbank_chart_builder.png)
+
+The final module in this interface is the **chart-builder**. The builder allows you to focus on a particular chart showing all countries for the metric. The user has a list of all metrics allowing him to bring up the visual they want. They can then alternate between line chart and the data in a table or heatmap. Some metrics can be split in male, female like so:
+
+![like so](images/readme/worldbank_split.png)
