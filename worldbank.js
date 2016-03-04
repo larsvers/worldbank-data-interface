@@ -2965,7 +2965,7 @@ function god () {
 
 
 
-	// --- bubble graph ---------------------------------------------------------------------------------
+			// --- bubble graph ---------------------------------------------------------------------------------
 
 			// svg (incl. viewBox for responsiveness)
 			var svg = container
@@ -3501,7 +3501,7 @@ function god () {
 								
 			
 			
-  // --- resort data ------------------------------------------------------------------------------------
+  			// --- resort data ------------------------------------------------------------------------------------
 
 				function resort(lever) {
 
@@ -3704,7 +3704,7 @@ function god () {
 
 				
 					
-  // --- update data ------------------------------------------------------------------------------------
+  			// --- update data ------------------------------------------------------------------------------------
 
 				// lookup table for date
 				var periodLookup = {
@@ -3970,7 +3970,7 @@ function god () {
 				}
 				
 
-  // --- interactivity ------------------------------------------------------------------------------------
+  			// --- interactivity ------------------------------------------------------------------------------------
 
 				// event-handler named transition to change specified colour
 				function changeColour(aes, dur, col, opac) {
@@ -4194,7 +4194,7 @@ function god () {
 
 
 
-	// --- tooltip explanation ------------------------------------------------------------------------------------
+			// --- tooltip explanation ------------------------------------------------------------------------------------
 
 			// add tooltip
 			var tooltipExplain = d3.select('body').append('div')
@@ -4293,7 +4293,7 @@ function god () {
 		var dataBouncer = 0; // use both columns (different widths get assigned below after the singleColumn() check)
 		
 
-// -- add HTML structure (data independent)------------------------------------------------------
+		// -- add HTML structure (data independent)------------------------------------------------------
 		
 		// add container
 		var container = d3.select('.contentInner#left')
@@ -4331,7 +4331,7 @@ function god () {
 			.attr('class', 'containerFiltersHidden contain');
 
 
-// -- data-dependent -----------------------------------------------------------------------------
+		// -- data-dependent -----------------------------------------------------------------------------
 		
 		d3.csv(file, function(rawData){
 		
@@ -4371,7 +4371,7 @@ function god () {
 				.domain(['Age', 'Economy', 'Health', 'Population', 'Rates', 'Urbanisation']) // all category options
 				.range(['#f7f7f7', '#ededed', '#ddd', '#ccc', '#bbb', '#aaa']); // different grey tones
 
-// -- add question-list (data-driven) ------------------------------------------------------------
+		// -- add question-list (data-driven) ------------------------------------------------------------
 		
 			// create list of questions
 			var list = container.selectAll('.questions')
@@ -4394,7 +4394,7 @@ function god () {
 			});
 
 		
-// -- build visual --------------------------------------------------------------------------------
+		// -- build visual --------------------------------------------------------------------------------
 		
 			var draw = function(){
 
@@ -4757,7 +4757,7 @@ function god () {
 					});
 
 
-// -----------------------------------------------------------------------------------------------------------
+					// -----------------------------------------------------------------------------------------------------------
 				
 				
 					// add chart g
@@ -5108,7 +5108,7 @@ function god () {
 
 				
 
-// --- Interactivity -------------------------------------------------------------------------------------------------
+				// --- Interactivity -------------------------------------------------------------------------------------------------
 
 				// some constants		
 				var currentColor; // for tooltip
@@ -5119,7 +5119,7 @@ function god () {
 						locked = false; // used in answerButtonHoverOut()
 
 			
-// -------------------------------------------------------------------------------------------
+				// -------------------------------------------------------------------------------------------
 
 				listeners(answerLinesHelp);
 				listeners(circles);
@@ -5640,7 +5640,7 @@ function god () {
 				}
 
 
-// -------------------------------------------------------------------------------------------
+				// -------------------------------------------------------------------------------------------
 				
 		 	} // draw()
 		
@@ -5656,7 +5656,7 @@ function god () {
 			    .style('opacity', 0);
 			
 			
-	// --- tooltip transition ------------------------------------------------------------------------------------
+			// --- tooltip transition ------------------------------------------------------------------------------------
 
 			// add tooltip
 			var tooltipExplain = d3.select('body').append('div')

@@ -482,7 +482,7 @@ div.containerInner {
 }
 
 div.containerInner::-webkit-scrollbar {
-	display: none;
+	/*display: none;*/
 }
 
 div.containerNumber {
@@ -491,7 +491,7 @@ div.containerNumber {
 }
 
 div.containerNumber::-webkit-scrollbar {
-	display: none;
+	/*display: none;*/
 }
 
 
